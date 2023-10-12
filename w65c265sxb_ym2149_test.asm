@@ -6,14 +6,9 @@
 ;ports for sound chip
 ;YMDATAA EQU 0xdf10
 ;YMREGA EQU 0xdf11
-;YMDATAB EQU 0xdf14
-;YMREGB EQU 0xdf15
+;YMDATAB EQU 0xdf12
+;YMREGB EQU 0xdf13
 
-;flipped during testing
-YMDATAA EQU 0xdf12
-YMREGA EQU 0xdf13
-YMDATAB EQU 0xdf10
-YMREGB EQU 0xdf11
 
 start:
   clc ; set native mode
