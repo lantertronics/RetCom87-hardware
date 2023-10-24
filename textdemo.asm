@@ -1,6 +1,7 @@
 ;RetCom87: TMS9118 board for W65C265 microcontroller 
 ;Text mode demo
 ;Aaron Lanterman, Oct. 24, 2023
+;Compile with naken_asm
 .65816
 .org 0x1000
 
